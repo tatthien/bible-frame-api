@@ -1,0 +1,17 @@
+{
+  "name": "bible-frame-api",
+  "scripts": {
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.12.2",
+    "better-sqlite3": "^11.2.1",
+    "hono": "^4.5.9",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.11",
+    "@types/node": "^20.11.17",
+    "tsx": "^4.7.1"
+  }
+}
