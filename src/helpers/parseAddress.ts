@@ -1,7 +1,7 @@
 export function parseAddress(address: string) {
   const trimmedAddress = address.trim()
 
-  const regex = /^(?<book>[A-Za-z]+)\s+(?<chapter>\d+)(?::(?<verseFrom>\d+)?(?:-(?<verseTo>\d+))?)?$/
+  const regex = /^(?<book>(?:[0-9]{1})?[A-Za-z]+)\s+(?<chapter>\d+)(?::(?<verseFrom>\d+)?(?:-(?<verseTo>\d+))?)?$/
   const match = trimmedAddress.match(regex)
 
   if (match) {
